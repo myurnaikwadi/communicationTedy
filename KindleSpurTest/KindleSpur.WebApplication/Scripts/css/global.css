@@ -1,0 +1,54 @@
+﻿body{
+     margin: 0;
+    float: left;
+    display: inline-block;
+}
+ul,h1,h2,h3,h4,h5,h6{ 
+	list-style-type:none;margin:0;padding:0;font-weight: inherit;box-sizing: border-box;-moz-box-sizing:border-box;
+}
+.genericPointerClass {
+            cursor: pointer;
+        }
+.fontClass {
+	font-family: sans-serif;
+}
+
+ ::-webkit-scrollbar {
+            height: 3px;
+            width: 3px;
+ }
+
+::-webkit-scrollbar-thumb {
+    background-color: #A9A9A9;
+}
+
+.triangleArrowUp {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+}
+.triangleArrowDown {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #f00;
+}
+
+.triangleArrowRight {
+  width: 0; 
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-left: 60px solid green;
+}
+
+.triangleArrowLeft {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  border-right:10px solid blue; 
+}
